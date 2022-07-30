@@ -94,7 +94,7 @@
   position: absolute;
   background: #000;
   top: 50px;
-  right: 30%;
+  right: 29%;
   z-index: 999999;
   width: 267px;
   padding: 20px;
@@ -112,5 +112,39 @@
     span {
       color: #ffd700;
     }
+  }
+}
+@media (max-width:530px){
+  .container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .container .text-zone h1{
+    // display: flex;
+    // flex-direction: column;
+    width: 100vw; 
+  }
+  .container .text-zone p{
+    min-width: 80vw;
+  }
+  .container .text-zone .contact-form{
+    min-width: 80vw;
+  }
+  .container .info-map{
+    top: 80%;
+      // right: 30%;  
+      position: relative;
+      margin-top: 100px;
+      left: 10%;
+      width: 70vw; 
+      // height: 50px!important;
+  }
+  .container .map-wrap{
+    top: 80%;
+      // right: 30%;
+      margin-top: 10px;
+      position: relative;
+      width: 80vw; 
+     right:10%;
   }
 }

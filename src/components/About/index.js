@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
+  faBootstrap,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -38,20 +38,24 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm currently a Second-year B-Tech student of computer science in
+            Faculty Of Engineering & Technology, GK(DU), learning Web
+            development using react, and trying to do competitive programming in
+            java
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            I like solving problems in a creative way, exploring my outer as
+            well as my inner self always trying to learn and improve myself. a
+            sports fanatic, comedy-lover, tech-obsessed and a peaceful mind!!!
           </p>
         </div>
-
         <div className="stage-cube-cont">
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

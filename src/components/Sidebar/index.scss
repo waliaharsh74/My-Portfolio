@@ -6,6 +6,7 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
+  // display: none;
 
   .logo {
     display: block;
@@ -89,6 +90,11 @@
         content: 'CONTACT';
       }
     }
+    a.portfolio-link {
+      &:after {
+        content: 'PORTFOLIO';
+      }
+    }
 
     a.active {
       svg {
@@ -121,4 +127,55 @@
       }
     }
   }
+}
+.topbar{
+  display: none;
+}
+@media (max-width:530px) {
+  // .nav-bar2 {
+  //     display: block;
+  //     background: #181818;
+  //       width:  100;
+  //       height: 70px;
+  //       position: absolute;
+  //       top: 0;
+  //       z-index: 3;
+        
+  //       // min-height: 500px;
+  //       .logo2 {
+  //         display: block;
+  //         padding: 8px 0;
+      
+  //         img {
+  //           display: block;
+  //           margin: 8px auto;
+  //           width: 24px;
+  //           height: auto;
+      
+            
+  //         }
+  //       }
+  //   }
+  // .nav-bar2 ul{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+ .topbar{
+  display: block;
+ }
+  .nav-bar {
+    display:none;
+    
+  }
+  
+  
+  .nav-bar .logo img.sub-logo{
+    display: none;
+  }
+  
+  .nav-bar ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }

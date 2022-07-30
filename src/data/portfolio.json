@@ -1,0 +1,30 @@
+
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/amazon-clone.png",
+            "title": "Amazon clone",
+            "description": "React, JSX, Firebase",
+            "url": "https://clone-3dfd4.web.app/"
+        },
+        {
+            "cover": "/portfolio/1/Tesla_logo.png",
+            "title": "Tesla Clone",
+            "description": "React, Redux, CSS",
+            "url": "https://teslaclonebyharsh.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/news.png",
+            "title": "News-Monkey",
+            "description": "React, API, Bootstrap",
+            "url": "github.com/waliaharsh74/News-monkey"
+        },
+        
+        {
+            "cover": "/portfolio/1/resort.jpeg",
+            "title": "Beach Resort",
+            "description": "React, Context API, CSS",
+            "url": "https://fabulous-shortbread-aa98c3.netlify.app/"
+        }
+    ]
+}
