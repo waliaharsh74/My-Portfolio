@@ -55,7 +55,12 @@ const Contact = () => {
             don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form
+              action="https://formspree.io/f/mgebregp"
+              method="POST"
+              ref={form}
+              // onSubmit={sendEmail}
+            >
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
