@@ -21,11 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
         'service_kgw07nd',
         'template_mk45zym',
         form.current,
-        't8vrO3CDebim5xVVs'
+        'ZzChnFlHGLSGtz783'
       )
       .then(
         () => {
@@ -50,17 +49,12 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+            I am interested in freelance opportunities - especially on ambitious
+            or large projects. However, if you have any other requests or
+            questions, don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form
-              action="https://formspree.io/f/mgebregp"
-              method="POST"
-              ref={form}
-              // onSubmit={sendEmail}
-            >
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />

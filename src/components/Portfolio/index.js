@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-// import p1 from '../../assets/images/amazon-clone.png'
 import portfolioData from '../../data/portfolio.json'
 
 const Portfolio = () => {
@@ -62,7 +61,6 @@ const Portfolio = () => {
 }
 
 export default Portfolio
-
 // {
 //             "cover": "/portfolio/1/Tic_tac_toe.svg.png",
 //             "title": "Tic-Tac-Toe",

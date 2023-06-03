@@ -38,10 +38,10 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm currently a Second-year B-Tech student of computer science in
+            I'm currently a Fourth-year B-Tech student of computer science in
             Faculty Of Engineering & Technology, GK(DU), learning Web
-            development using react, and trying to do competitive programming in
-            java
+            development using react, and trying to do competitive programming
+            and practicing DSA in java
           </p>
           <p>
             I like solving problems in a creative way, exploring my outer as
