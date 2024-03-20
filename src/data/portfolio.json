@@ -1,25 +1,23 @@
-
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/amazon-clone.png",
-            "title": "Amazon clone",
-            "description": "React, JSX, Firebase",
-            "url": "https://clone-3dfd4.web.app/"
+            "cover": "/portfolio/1/hero-bcg.jpeg",
+            "title": "Horophile",
+            "description": "React, JSX, Auth0, Stripe, Airtable",
+            "url": "https://horophile.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/Tesla_logo.png",
-            "title": "Tesla Clone",
-            "description": "React, Redux, CSS",
-            "url": "https://teslaclonebyharsh.netlify.app/"
+            "cover": "/portfolio/1/gu.png",
+            "title": "Github Users",
+            "description": "React, Auth0, Axios, Fusion Charts",
+            "url": "https://github-users-by-harsh.netlify.app/"
         },
         {
-            "cover": "/portfolio/1/news.png",
-            "title": "News-Monkey",
-            "description": "React, API, Bootstrap",
-            "url": "github.com/waliaharsh74/News-monkey"
+            "cover": "/portfolio/1/kp.png",
+            "title": "Kalpvriksh-Graphics",
+            "description": "Javascript, React, Bootstrap",
+            "url": "https://kalpvriksh-graphics.netlify.app/"
         },
-        
         {
             "cover": "/portfolio/1/resort.jpeg",
             "title": "Beach Resort",
