@@ -1,22 +1,22 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/hero-bcg.jpeg",
-            "title": "Horophile",
+            "cover": "/portfolio/1/twitter.png",
+            "title": "Twitter Clone",
+            "description": "Next.js, GraphQl, Postgres, Redis,Prisma ORM",
+            "url": "https://twitter-clone-three-mauve.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/1/furniture.jpg",
+            "title": "E-commerce",
             "description": "React, JSX, Auth0, Stripe, Airtable",
-            "url": "https://horophile.netlify.app/"
+            "url": "https://kalpvriksh-graphics.netlify.app/"
         },
         {
             "cover": "/portfolio/1/gu.png",
             "title": "Github Users",
             "description": "React, Auth0, Axios, Fusion Charts",
             "url": "https://github-users-by-harsh.netlify.app/"
-        },
-        {
-            "cover": "/portfolio/1/kp.png",
-            "title": "Kalpvriksh-Graphics",
-            "description": "Javascript, React, Bootstrap",
-            "url": "https://kalpvriksh-graphics.netlify.app/"
         },
         {
             "cover": "/portfolio/1/resort.jpeg",

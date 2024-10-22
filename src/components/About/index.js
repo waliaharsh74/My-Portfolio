@@ -33,15 +33,10 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm an ambitious Software Developer currently working at Autope Payment Solutions in MERN stack, seeking opportunities to collaborate on diverse and challenging projects using the latest technologies.
           </p>
           <p align="LEFT">
-            I'm currently a Fourth-year B-Tech student of computer science in
-            Faculty Of Engineering & Technology, GK(DU), learning Web
-            development using react, and trying to do competitive programming
-            and practicing DSA in java
+            I'm continuously expanding my skill set by learning new technologies like TypeScript, Next.js, GraphQL, PostgreSQL, and Prisma to stay at the forefront of web development.
           </p>
           <p>
             I like solving problems in a creative way, exploring my outer as
